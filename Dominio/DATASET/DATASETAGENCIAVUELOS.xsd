@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DATASETAGENCIAVUELOS" targetNamespace="http://tempuri.org/DATASETAGENCIAVUELOS.xsd" xmlns:mstns="http://tempuri.org/DATASETAGENCIAVUELOS.xsd" xmlns="http://tempuri.org/DATASETAGENCIAVUELOS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DATASETAGENCIAVUELOS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DATASETAGENCIAVUELOS" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DATASETAGENCIAVUELOS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCliente" msprop:Generator_RowEvHandlerName="dtClienteRowChangeEventHandler" msprop:Generator_RowDeletedName="dtClienteRowDeleted" msprop:Generator_RowDeletingName="dtClienteRowDeleting" msprop:Generator_RowEvArgName="dtClienteRowChangeEvent" msprop:Generator_TablePropName="dtCliente" msprop:Generator_RowChangedName="dtClienteRowChanged" msprop:Generator_UserTableName="dtCliente" msprop:Generator_RowChangingName="dtClienteRowChanging" msprop:Generator_RowClassName="dtClienteRow" msprop:Generator_TableClassName="dtClienteDataTable" msprop:Generator_TableVarName="tabledtCliente">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="numeroCliente" msprop:Generator_ColumnPropNameInTable="numeroClienteColumn" msprop:Generator_ColumnPropNameInRow="numeroCliente" msprop:Generator_UserColumnName="numeroCliente" msprop:Generator_ColumnVarNameInTable="columnnumeroCliente" type="xs:string" minOccurs="0" />
+              <xs:element name="clienteNombre" msprop:Generator_ColumnPropNameInTable="clienteNombreColumn" msprop:Generator_ColumnPropNameInRow="clienteNombre" msprop:Generator_UserColumnName="clienteNombre" msprop:Generator_ColumnVarNameInTable="columnclienteNombre" type="xs:string" minOccurs="0" />
+              <xs:element name="clienteApellido" msprop:Generator_ColumnPropNameInTable="clienteApellidoColumn" msprop:Generator_ColumnPropNameInRow="clienteApellido" msprop:Generator_UserColumnName="clienteApellido" msprop:Generator_ColumnVarNameInTable="columnclienteApellido" type="xs:string" minOccurs="0" />
+              <xs:element name="clienteTelefono" msprop:Generator_ColumnPropNameInTable="clienteTelefonoColumn" msprop:Generator_ColumnPropNameInRow="clienteTelefono" msprop:Generator_UserColumnName="clienteTelefono" msprop:Generator_ColumnVarNameInTable="columnclienteTelefono" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtPasajeros" msprop:Generator_RowEvHandlerName="dtPasajerosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtPasajerosRowDeleted" msprop:Generator_RowDeletingName="dtPasajerosRowDeleting" msprop:Generator_RowEvArgName="dtPasajerosRowChangeEvent" msprop:Generator_TablePropName="dtPasajeros" msprop:Generator_RowChangedName="dtPasajerosRowChanged" msprop:Generator_UserTableName="dtPasajeros" msprop:Generator_RowChangingName="dtPasajerosRowChanging" msprop:Generator_RowClassName="dtPasajerosRow" msprop:Generator_TableClassName="dtPasajerosDataTable" msprop:Generator_TableVarName="tabledtPasajeros">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="numeroPasajero" msprop:Generator_ColumnPropNameInTable="numeroPasajeroColumn" msprop:Generator_ColumnPropNameInRow="numeroPasajero" msprop:Generator_UserColumnName="numeroPasajero" msprop:Generator_ColumnVarNameInTable="columnnumeroPasajero" type="xs:string" minOccurs="0" />
+              <xs:element name="pasajeroNombre" msprop:Generator_ColumnPropNameInTable="pasajeroNombreColumn" msprop:Generator_ColumnPropNameInRow="pasajeroNombre" msprop:Generator_UserColumnName="pasajeroNombre" msprop:Generator_ColumnVarNameInTable="columnpasajeroNombre" type="xs:string" minOccurs="0" />
+              <xs:element name="pasajeroApellido" msprop:Generator_ColumnPropNameInTable="pasajeroApellidoColumn" msprop:Generator_ColumnPropNameInRow="pasajeroApellido" msprop:Generator_UserColumnName="pasajeroApellido" msprop:Generator_ColumnVarNameInTable="columnpasajeroApellido" type="xs:string" minOccurs="0" />
+              <xs:element name="pasajeroPasaporte" msprop:Generator_ColumnPropNameInTable="pasajeroPasaporteColumn" msprop:Generator_ColumnPropNameInRow="pasajeroPasaporte" msprop:Generator_UserColumnName="pasajeroPasaporte" msprop:Generator_ColumnVarNameInTable="columnpasajeroPasaporte" type="xs:string" minOccurs="0" />
+              <xs:element name="pasajeroCorreo" msprop:Generator_ColumnPropNameInTable="pasajeroCorreoColumn" msprop:Generator_ColumnPropNameInRow="pasajeroCorreo" msprop:Generator_UserColumnName="pasajeroCorreo" msprop:Generator_ColumnVarNameInTable="columnpasajeroCorreo" type="xs:string" minOccurs="0" />
+              <xs:element name="asiento" msprop:Generator_ColumnPropNameInTable="asientoColumn" msprop:Generator_ColumnPropNameInRow="asiento" msprop:Generator_UserColumnName="asiento" msprop:Generator_ColumnVarNameInTable="columnasiento" type="xs:string" minOccurs="0" />
+              <xs:element name="codigoReserva" msprop:Generator_ColumnPropNameInTable="codigoReservaColumn" msprop:Generator_ColumnPropNameInRow="codigoReserva" msprop:Generator_UserColumnName="codigoReserva" msprop:Generator_ColumnVarNameInTable="columncodigoReserva" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

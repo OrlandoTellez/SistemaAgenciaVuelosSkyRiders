@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1511E9CE-F905-4DF0-8A75-4E8BA717DE2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Presentacion.My.MyApplication</StartupObject>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutosDisponibles.Designer.vb">
+      <DependentUpon>AutosDisponibles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AutosDisponibles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosSubidosExitosamente.Designer.vb">
+      <DependentUpon>DatosSubidosExitosamente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatosSubidosExitosamente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EscogerCantidadPasajeros.Designer.vb">
+      <DependentUpon>EscogerCantidadPasajeros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EscogerCantidadPasajeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosUsuarioVuelo.Designer.vb">
+      <DependentUpon>frmDatosUsuarioVuelo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosUsuarioVuelo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistro.Designer.vb">
+      <DependentUpon>frmRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservarHotel.Designer.vb">
+      <DependentUpon>frmReservarHotel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservarHotel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservarVehiculo.Designer.vb">
+      <DependentUpon>frmReservarVehiculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservarVehiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservarVuelos.Designer.vb">
+      <DependentUpon>frmReservarVuelos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservarVuelos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotelesDisponibles.Designer.vb">
+      <DependentUpon>HotelesDisponibles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HotelesDisponibles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PaginaPrincipalDeInicio.Designer.vb">
+      <DependentUpon>PaginaPrincipalDeInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaPrincipalDeInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Papumenu.Designer.vb">
+      <DependentUpon>Papumenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Papumenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasarelaDePago.Designer.vb">
+      <DependentUpon>PasarelaDePago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PasarelaDePago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasarelaDePagoHoteles.Designer.vb">
+      <DependentUpon>PasarelaDePagoHoteles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PasarelaDePagoHoteles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasarelaDePagosVehiculo.Designer.vb">
+      <DependentUpon>PasarelaDePagosVehiculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PasarelaDePagosVehiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerfilDelCliente.Designer.vb">
+      <DependentUpon>PerfilDelCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PerfilDelCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarUsuario.Designer.vb">
+      <DependentUpon>VerificarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerReservas.Designer.vb">
+      <DependentUpon>VerReservas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerReservas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VuelosDisponibles.Designer.vb">
+      <DependentUpon>VuelosDisponibles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VuelosDisponibles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutosDisponibles.resx">
+      <DependentUpon>AutosDisponibles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosSubidosExitosamente.resx">
+      <DependentUpon>DatosSubidosExitosamente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EscogerCantidadPasajeros.resx">
+      <DependentUpon>EscogerCantidadPasajeros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatosUsuarioVuelo.resx">
+      <DependentUpon>frmDatosUsuarioVuelo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservarHotel.resx">
+      <DependentUpon>frmReservarHotel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservarVehiculo.resx">
+      <DependentUpon>frmReservarVehiculo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservarVuelos.resx">
+      <DependentUpon>frmReservarVuelos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelesDisponibles.resx">
+      <DependentUpon>HotelesDisponibles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaPrincipalDeInicio.resx">
+      <DependentUpon>PaginaPrincipalDeInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Papumenu.resx">
+      <DependentUpon>Papumenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasarelaDePago.resx">
+      <DependentUpon>PasarelaDePago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasarelaDePagoHoteles.resx">
+      <DependentUpon>PasarelaDePagoHoteles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasarelaDePagosVehiculo.resx">
+      <DependentUpon>PasarelaDePagosVehiculo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerfilDelCliente.resx">
+      <DependentUpon>PerfilDelCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarUsuario.resx">
+      <DependentUpon>VerificarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerReservas.resx">
+      <DependentUpon>VerReservas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VuelosDisponibles.resx">
+      <DependentUpon>VuelosDisponibles.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio\Dominio.vbproj">
+      <Project>{a326c615-c428-4a7b-8a5c-cbfac2a00812}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
